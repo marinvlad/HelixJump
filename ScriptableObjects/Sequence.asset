@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87a074e6bf38f8149877ef56970ef16e, type: 3}
+  m_Name: Sequence
+  m_EditorClassIdentifier: 
+  systemsToHandle:
+  - system: {fileID: 11400000, guid: f589489415db6a945ae65e483433a346, type: 2}
+    dependentSystems:
+    - {fileID: 11400000, guid: 70dd2b050b2bfd845a069475e6646c6a, type: 2}
+  - system: {fileID: 11400000, guid: 70dd2b050b2bfd845a069475e6646c6a, type: 2}
+    dependentSystems: []
+  - system: {fileID: 11400000, guid: eafb1b80178918d4aaf6c355f9212693, type: 2}
+    dependentSystems:
+    - {fileID: 11400000, guid: 367144abfef103e4398233fbce2e792e, type: 2}
+  - system: {fileID: 11400000, guid: 367144abfef103e4398233fbce2e792e, type: 2}
+    dependentSystems:
+    - {fileID: 11400000, guid: 16cb90d6a8a1fc34ea48c3782ccb9159, type: 2}
+  - system: {fileID: 11400000, guid: 16cb90d6a8a1fc34ea48c3782ccb9159, type: 2}
+    dependentSystems: []
+  - system: {fileID: 11400000, guid: 7bf40180b67dfa34b9472822e14b3e66, type: 2}
+    dependentSystems: []
+  - system: {fileID: 11400000, guid: 548fed43b31731a41ad390a2d7c0c50d, type: 2}
+    dependentSystems: []

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f11453ffe51e06c4e92beeb8efc950ce, type: 3}
+  m_Name: StepGenerator
+  m_EditorClassIdentifier: 
+  _stepPrefab:
+  - {fileID: 4296111888617145443, guid: a78eabf12aa763345ac7861277714d73, type: 3}
+  - {fileID: 4296111888617145443, guid: 0e6ec33ca9b4e5148bf2179fc7e237f6, type: 3}
+  _startStep: {fileID: 8479408956757598840, guid: a6ba832d21fbaed4fae8326b76a6ba72, type: 3}
+  _finalStep: {fileID: 8479408956757598840, guid: 4ecba6d3a7962b645bb4e0c6db1a19f7, type: 3}
+  _stepNumber: 10
+  _onLevelSpawn: {fileID: 11400000, guid: 79bcd7417ce953748b395a148fbf384f, type: 2}
+  _onGameStart: {fileID: 11400000, guid: cb59895ee65cb4e41a518ded7b77be92, type: 2}
+  _currentStepMaterial: {fileID: 11400000, guid: 5db4bd8eacd1b9b4a8dd580b89f2032d, type: 2}
+  _totalSteps: {fileID: 11400000, guid: 5e70a784dbbd6c8498fe1a98bf869a0e, type: 2}
+  _onLevelEnd: {fileID: 11400000, guid: cd951561e8a7c5a4da878cc2bbd89e86, type: 2}
+  _currentLevel: {fileID: 11400000, guid: db01bb9da2373fe40afb79b0bdd07407, type: 2}
+  _nextLevel: {fileID: 11400000, guid: 529ad8bf5e41fd441ab5f968bc40b1d7, type: 2}
+  _meshHandler: {fileID: 11400000, guid: eafb1b80178918d4aaf6c355f9212693, type: 2}

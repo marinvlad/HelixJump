@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6bb0ff2904170d4f82c02355d9550f1, type: 3}
+  m_Name: CameraGenerator
+  m_EditorClassIdentifier: 
+  _onPlayerSpawn: {fileID: 11400000, guid: bda4150cd93343f43b98fd5ef391d3b7, type: 2}
+  _cameraObject: {fileID: 2615969484736266050, guid: 1ed7c7e400367af4f9a646be55b38478, type: 3}

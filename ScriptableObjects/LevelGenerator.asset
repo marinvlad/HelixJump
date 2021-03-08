@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52d8ccaec0832044fa4a1cdc3f49773a, type: 3}
+  m_Name: LevelGenerator
+  m_EditorClassIdentifier: 
+  _object: {fileID: 5336168747063480092, guid: 7bfb9184ecf80334189ca6f6b5382933, type: 3}
+  _onLevelSpawnEvent: {fileID: 11400000, guid: 79bcd7417ce953748b395a148fbf384f, type: 2}
+  _onRestart: {fileID: 11400000, guid: defede2ea1a970846b996a981c4fee21, type: 2}

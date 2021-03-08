@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc21fe4a54b5f8f45ac87b5a4728a29b, type: 3}
+  m_Name: UIHandler
+  m_EditorClassIdentifier: 
+  _canvas: {fileID: 5553424845528645836, guid: ea6dc37f07d56c94f99416219769ea92, type: 3}
+  _menu: {fileID: 0}
+  _bestScoreTextUI: {fileID: 0}
+  _shop: {fileID: 0}
+  _levelEnd: {fileID: 0}
+  _touchArea: {fileID: 0}
+  _gameTopSection: {fileID: 0}
+  _scoreTextUI: {fileID: 0}
+  _currentLevelTextUI: {fileID: 0}
+  _nextLevelTextUI: {fileID: 0}
+  _slider: {fileID: 0}
+  _currentLevel: {fileID: 11400000, guid: db01bb9da2373fe40afb79b0bdd07407, type: 2}
+  _nextLevel: {fileID: 11400000, guid: 529ad8bf5e41fd441ab5f968bc40b1d7, type: 2}
+  _currentScore: {fileID: 11400000, guid: 3f26d1ed7ffeb8644af0fccea3f1c2c0, type: 2}
+  _bestScore: {fileID: 11400000, guid: 95babad6a3313c144b000b60c64cff57, type: 2}
+  _currentStep: {fileID: 11400000, guid: eb6472fc459e0924ab7b1a41a28f9ca3, type: 2}
+  _totalSteps: {fileID: 11400000, guid: 5e70a784dbbd6c8498fe1a98bf869a0e, type: 2}
+  _onGameOverEvent: {fileID: 11400000, guid: 384950ae6d8b52b469c96d0d2c8851c0, type: 2}
+  _onGameRestartEvent: {fileID: 11400000, guid: defede2ea1a970846b996a981c4fee21, type: 2}
+  _onNewPlayerItemReward: {fileID: 11400000, guid: ea18438f54d044c41ad15956548be18c, type: 2}
+  _loadingImage: {fileID: 0}
+  _reward: {fileID: 0}
+  _itemsIcons:
+  - {fileID: 21300000, guid: 0355bf1f4cae6294ea6c26b1f794ff77, type: 3}
+  - {fileID: 21300000, guid: e52e6f8597076c944a5dbeea3e17ddc2, type: 3}
+  - {fileID: 21300000, guid: b1e6841e4767c25418973ea0bb5bf8cf, type: 3}
+  - {fileID: 21300000, guid: 0cc530b4815dafe49ad9997cbd62457a, type: 3}
+  - {fileID: 21300000, guid: 717511c369130c24c86b5d5e2748979a, type: 3}
+  - {fileID: 21300000, guid: 84aac9105d6e759479070ff5cdd239d2, type: 3}
+  - {fileID: 21300000, guid: d683fa08a30ed43449e1e8b9243ae24e, type: 3}
+  _onGameStart: {fileID: 11400000, guid: cb59895ee65cb4e41a518ded7b77be92, type: 2}
